@@ -1,13 +1,18 @@
-# Playwright - Ejercicio de Instalación y Configuración
+# Playwright - Ejercicio de Automatización
 
-Este proyecto corresponde a un ejercicio de instalación y configuración de Playwright, donde se creó y ejecutó un primer test automatizado.
+Este proyecto corresponde a la instalación y configuración de Playwright, junto con la ejecución de un test automatizado.
 
 ## Tecnologías utilizadas
 - Node.js
 - Playwright
 
-## Instalación
+## Pasos realizados
+- Inicialización del proyecto con npm
+- Instalación de Playwright
+- Configuración de playwright.config.js
+- Creación del primer test automatizado
+
+## Ejecución
+
 ```bash
-npm init -y
-npm install -D @playwright/test
-npx playwright install
+npx playwright test
